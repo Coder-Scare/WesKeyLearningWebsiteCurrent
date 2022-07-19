@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+
+<html>
+   
+  <head>
+      <meta charset="utf-8" />
+      <meta name="viewport" content="width=device-width, intial-scale=1.0">
+      <meta http-equiv = "refresh" content = "5; url = index.html" />
+      <title>Thank You!</title>
+      <link rel="stylesheet" type="text/css" href="css/sent.css">
+      <script src="index.js"></script>
+      <!---Fav--Icon--Code-->
+      <link rel="apple-touch-icon" sizes="180x180" href="images/favIcons/apple-touch-icon.png">
+      <link rel="icon" type="image/png" sizes="32x32" href="images/favIcons/favicon-32x32.png">
+      <link rel="icon" type="image/png" sizes="16x16" href="images/favIcons/favicon-16x16.png">
+      <link rel="manifest" href="images/favIcons/site.webmanifest">
+      <link rel="mask-icon" href="images/favIcons/safari-pinned-tab.svg" color="#5bbad5">
+      <meta name="msapplication-TileColor" content="#da532c">
+      <meta name="theme-color" content="#ffffff">
+      <!---Google 'Open Sans' Font-->
+      <link href='https://fonts.googleapis.com/css?family=Open Sans' rel='stylesheet'>
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.min.css">
+      <!-- Meta Pixel Code -->
+      <script>
+        !function(f,b,e,v,n,t,s)
+        {if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+        n.callMethod.apply(n,arguments):n.queue.push(arguments)};
+        if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
+        n.queue=[];t=b.createElement(e);t.async=!0;
+        t.src=v;s=b.getElementsByTagName(e)[0];
+        s.parentNode.insertBefore(t,s)}(window, document,'script',
+        'https://connect.facebook.net/en_US/fbevents.js');
+        fbq('init', '362210259110869');
+        fbq('track', 'PageView');
+        </script>
+        <noscript><img height="1" width="1" style="display:none"
+        src="https://www.facebook.com/tr?id=362210259110869&ev=PageView&noscript=1"
+        /></noscript>
+        <!-- End Meta Pixel Code -->
+  </head>
+  
+   <body>
+    <div id="sentContentContainer">   
+        
+      <div id="homeContainer">
+        <a href="index.html">
+        <picture>
+          <source type="image/webp" srcset="images/images-webp/WKey-Site-Logo.webp"/>
+          <source type="image/png"  srcset="images/WKey-Site-Logo.png"/>
+          <img src="images/WKey-Site-Logo.png" alt="Go Back">
+        </picture>
+      <p>Home</p></a>
+      </div>
+
+        <div class="messageContainer">
+            <div class="messageSent">
+                <h3>Message Received</h3>
+                <p>We will get back to you shortly.</p>
+            </div>
+        </div>
+    </div>
+
+    <div class="redirectMessage">
+      <span>You will be automatically redirected in 5 seconds...</span>
+    </div>
+
+     <!--Facebook Events-->
+     <script>
+      fbq('track', 'CompleteRegistration');
+      fbq('track', 'PageView');
+    </script>
+   </body>
+  </html>

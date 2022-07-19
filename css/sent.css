@@ -1,0 +1,97 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    overflow-y:hidden;
+}
+
+html {
+    height: 100vh;
+}
+
+body {
+    background: #fff;
+    font-family: "Open Sans", Arial, Helvetica, sans-serif;
+    line-height: 1.5;
+    margin: 0px;
+    padding: 30px;
+}
+
+#sentContentContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh ;
+}
+
+#homeContainer {
+    position: absolute;
+    top: 0;
+    text-align: center;
+    width: 120px;
+    margin: 30px auto;
+}
+
+img {
+    width: 100px;
+}
+
+a {
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: bold;
+    color: #000;
+    transition:.5s;
+}
+
+
+a:hover{
+ color: #7f2396;
+}
+
+#homeContainer {
+    transition:transform .5s;
+}
+
+#homeContainer:hover {
+    transform: scale(1.15);
+}
+
+.messageContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border: 1px ;
+    height: 200px;
+    width: 100%; 
+    max-width: 600px;
+    text-align: center;
+    border-radius: 30px;
+    background-color: #cd6de6;
+}
+.messageSent h3 {
+    font-size: 1.6rem;
+}
+.messageSent p{
+    margin-top: 5px;
+    font-size: 1.1rem
+}
+
+.redirectMessage {
+    position: absolute;
+    bottom: 15px;
+    left: 20px;
+    color:rgb(56, 52, 52);
+    font-size: 1rem;
+}
+
+
+
+
+
+
+
+
+
